@@ -19,6 +19,10 @@ namespace GitHarjoitus2021
             Console.WriteLine("Laske lukujen 3005 ja 453 summa");
             int summa = laskimeni.Summa(3005, 453);
             Console.WriteLine("summa on: " + summa);
+
+            Console.WriteLine("Laske lukujen 15 ja 4 jakojäännös");
+            int jakojaannos = laskimeni.JakoJaannos(15, 4);
+            Console.WriteLine("Jakojäännös on: " + jakojaannos);
         }
     }
 }
