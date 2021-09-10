@@ -6,8 +6,7 @@ namespace GitHarjoitus2021
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Terve Laskin!");
-
+            Console.WriteLine("Laskimen ensimmäinen versio. 1.0V");
 
             Laskin laskimeni = new Laskin();
             
