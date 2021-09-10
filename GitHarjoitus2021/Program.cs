@@ -16,8 +16,8 @@ namespace GitHarjoitus2021
             Console.WriteLine("erotus on: " + erotus);
 
 
-            Console.WriteLine("Laske lukujen 1002 ja 256 summa");
-            int summa = laskimeni.Summa(1002, 256);
+            Console.WriteLine("Laske lukujen 3005 ja 453 summa");
+            int summa = laskimeni.Summa(3005, 453);
             Console.WriteLine("summa on: " + summa);
         }
     }
