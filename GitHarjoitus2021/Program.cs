@@ -6,12 +6,13 @@ namespace GitHarjoitus2021
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Terve Laskint!");
+            Console.WriteLine("Terve Laskin!");
 
 
             Laskin laskimeni = new Laskin();
-            Console.WriteLine("Laske lukujen 5 ja 16 erotus");
-            int erotus = laskimeni.Erotus(5, 16);
+            
+            Console.WriteLine("Laske lukujen 148 ja 56 erotus");
+            int erotus = laskimeni.Erotus(148, 56);
             Console.WriteLine("erotus on: " + erotus);
         }
     }
